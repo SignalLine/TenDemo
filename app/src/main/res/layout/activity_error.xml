@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D4D4"
+    tools:context="com.zhouya.sp.ten.ErrorActivity"
+    >
+
+
+
+    <TextView
+        android:id="@+id/error_click_retry"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/retry_icon"
+        android:text="(ㄒoㄒ)~~网络开小差"/>
+
+</RelativeLayout>

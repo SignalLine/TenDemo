@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.zhouya.sp.ten.fragments.diagramfragments.SubDiagramFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_marginTop="45dp"
+            android:paddingBottom="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- 图片-->
+            <ImageView
+                android:id="@+id/diagram_image_image1"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pic_loading1514"
+                />
+            <!-- 标题-->
+            <TextView
+                android:id="@+id/diagram_text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="标题"
+                android:textSize="20sp"
+                />
+            <!-- 作者 -->
+            <TextView
+                android:id="@+id/diagram_text_authorbrief"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="作者"
+                android:textColor="#A1A1A1"
+                />
+            <!-- 线-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:src="@mipmap/line"/>
+            <!-- 简介-->
+            <TextView
+                android:id="@+id/diagram_text_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="内容简介"
+                android:padding="8dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/diagram_text_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="内容归处"
+                android:padding="8dp"
+                android:gravity="right"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </ScrollView>
+    <!-- 收藏 -->
+    <ImageView
+        android:id="@+id/diagram_favorite_btn"
+        android:alpha="0.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="80dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:src="@drawable/selector_favorite_icon"/>
+
+</RelativeLayout>

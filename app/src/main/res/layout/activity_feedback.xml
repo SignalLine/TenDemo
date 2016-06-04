@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhouya.sp.ten.FeedbackActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:text="加微信或QQ反馈问题，我们会第一时间为你解决。"/>
+    <LinearLayout
+        android:id="@+id/feedback_ll_text_weixin"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:drawableLeft="@mipmap/feedback_weixin"
+            android:text="  微信公众账号:"/>
+        <TextView
+            android:id="@+id/feedback_text_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shigeten"
+            android:textColor="#0E8BFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/feedback_ll_text_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:drawableLeft="@mipmap/feedback_qq"
+            android:text="  QQ号: "/>
+        <TextView
+            android:id="@+id/feedback_text_QQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="551608331"
+            android:textColor="#0E8BFF"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/movie_image_show0_imageforplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/movie_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="感化院 规训与惩罚"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/movie_text_author_small"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="作者:白煮蛋"/>
+        <!-- 分割线 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/shuxian"
+            />
+
+        <TextView
+            android:id="@+id/movie_text_times"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="阅读量 : 5245"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/movie_text_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E8E8"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:text="sdfafdalnf;akfsadflajf;"
+        android:textSize="18sp"/>
+    <!-- 线-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@mipmap/line"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="剧情简介"
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+    <ImageView
+        android:id="@+id/movie_image_show1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/movie_text_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="1968年，，整个德国正在步入一个自由的新纪元"/>
+    <!-- 线-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@mipmap/line"/>
+    <TextView
+        android:id="@+id/movie_text_realtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="规训与惩罚"
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+    <ImageView
+        android:id="@+id/movie_image_show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/movie_text_text3_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="本来看到介绍说这部电影是真是事件改变的整个德国正在步入一个自由的新纪元"/>
+
+    <!-- 最后图片-->
+    <ImageView
+        android:id="@+id/movie_image_show3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:id="@+id/movie_image_show4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="15dp"/>
+    <!-- 线-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@mipmap/line"/>
+    <!-- 作者-->
+    <TextView
+        android:id="@+id/movie_text_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="白煮蛋"
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+    <!-- 长居地-->
+    <TextView
+        android:id="@+id/movie_text_authorbrief"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="长居地 : 上海"
+        android:layout_margin="15dp"/>
+</LinearLayout>

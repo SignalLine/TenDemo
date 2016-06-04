@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ten</string>
+    <string name="personal">个人</string>
+    <string name="diagram">美图</string>
+    <string name="novel">文章</string>
+    <string name="movie">影评</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_click_login">点击用QQ登录</string>
+    <string name="setting_favorite">我的收藏</string>
+    <string name="setting_font">字体设置</string>
+    <string name="setting_aboutus">关于十个</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="welcome_start_text">半杯咖啡工作室</string>
+    <string name="smallFont">眼神儿好</string>
+    <string name="middleFont">不大不小</string>
+    <string name="largeFont">我要大大</string>
+    <string name="font_show_text">我已经老了，在人来人往的大厅，有一位老人他向我走来，他说我认识你，那时的你还很年轻，美丽，你的身边有许许多多的追求者，不过跟那时相比，我更喜欢现在你这经历了沧桑的容颜!</string>
+    <string name="font_show_title">-《情人》</string>
+    <string name="delete_favorite">删除</string>
+</resources>
